@@ -15,9 +15,9 @@ instead.
 
 1. Run `shoty --help` once. It prints the command guide as plain text.
 2. If `shoty` is not found, or a command exits 3 saying Shoty is not accepting
-   command-line control, ask the user to open Shoty → Preferences → Advanced
-   and turn on "Allow command-line control" (환경 설정 → 고급 → 명령줄 제어
-   허용), then try again. Do not look for another way in.
+   command-line control, ask the user to turn it on, then try again:
+   Shoty → Preferences → Advanced → "Allow command-line control"
+   (환경 설정 → 고급 → 명령줄 제어 허용). Do not look for another way in.
 3. Pick the project:
    - `shoty projects` lists the projects on this computer;
      `shoty open <project-id|folder>` starts a session in one.
